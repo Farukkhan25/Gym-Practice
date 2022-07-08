@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+}
+
+.menubar{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+}
+
+.logo-title{
+    font-size: 53px;
+    font-weight: bold;
+    color: white;
+    font-style: italic;
+    letter-spacing: .4rem;
+    
+}
+
+.manu-item{
+    display: flex;
+    margin-right: 150px;
+}
+.manu-item li{
+    margin-right: 15px;
+    list-style: none;
+    font-size: 18px;
+    padding: 18px;
+}
+
